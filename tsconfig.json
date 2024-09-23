@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", // Or the highest version your environment supports
+    "module": "commonjs",
+    "lib": ["ES2017", "DOM"],
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noEmitHelpers": false,
+    "importHelpers": true // Set to true if you prefer to use tslib
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
